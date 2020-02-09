@@ -7,7 +7,7 @@ import com.acmerobotics.roadrunner.trajectory.Trajectory
 import com.acmerobotics.roadrunner.trajectory.TrajectoryBuilder
 import com.acmerobotics.roadrunner.trajectory.constraints.DriveConstraints
 
-object TrajectoryGen {
+object BlueStone{
     private val constraints = DriveConstraints(45.0, 60.0, 0.0, 270.0.toRadians, 270.0.toRadians, 0.0)
     private val startPose = Pose2d(-22.0, -62.5, 180.0.toRadians)
     //private val startPose = Pose2d(48.0, -28.0, -90.0.toRadians)
